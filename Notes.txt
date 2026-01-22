@@ -1,0 +1,108 @@
+What will I learn
+	Preparing Games for mods
+	Installing The essentials. ASI loader. CLEO. Modloader etc.
+	Using Modloader and covering modloader in-depth
+	installing mods and understanding file types
+	diagnose and solving crashesh
+
+
+What is asi loaders 
+	
+	Asi loaders load asi plugins , these have the .asi file extension
+
+	An ASI Loader is a proxy DLL (Dynamic Link Library) that enables game processes to 
+	load custom .asi files, which are essentially plugins or scripts for adding mods 
+	like new vehicles, maps, features, or performance enhancements. 
+
+	It acts as a bridge, allowing users to inject unofficial modifications into games 
+	that don't natively support them, extending gameplay and customization options. 
+	
+	a
+
+What is cleo 
+
+	we use cleo so we dont have to change main.scm file of game 
+	cleo scripts = .cs
+	
+	cleo plugins = .cleo
+
+	cleo allows News script in scm to be loaded separately from "main.scm"
+
+
+	custom scripts and cheats,
+	extending gameplay with features like spawning vehicles,
+	changing game settings (time), and adding new missions or mechanics, 
+
+			Custom Scripts: Run scripts (usually .cs files) 
+			that add new features like vehicle spawning, weapons, or unique missions. 
+
+	It works by adding new functions (opcodes) for scripting,
+	 enabling powerful modifications without altering core game files.
+
+
+	the 2 main additional cleo plugins are "newopcodes" and "cleo+"
+	both installed is recommended 
+
+What is modloader 
+	
+	Asi plugin just use to download more Asi mod 	
+	makes installing mod easier 
+	
+	Mod Loader is an ASI Plugin for Rockstar's Grand Theft Auto San Andreas that adds an
+	extremely user-friendly and easy way to install and
+ 	uninstall your modifications, without even messing around anything in your game installation.
+
+	
+	we will be installing mods inside this folder majority of mod works inside this folder 
+	
+	silent patch fixes most of bugs and glitch and we install it inside modloader folder 
+
+
+LIMIT ADJUSTERS 
+	two main limit adjusters are "open limit adjuster" and "fastman92"
+	majority of limit adjuster will be fine with "open limit adjuster" 
+	we dont have to mess with limit adjuster unless we told to do so
+
+
+IMG factory and txd editor 
+	used to edit textures in gta sa
+
+
+A simple exercise about how modloader works 
+
+	fist we will install without modloader 
+		we can do it by replacing the texture one by one in img and txd files  
+	
+	And cuz of modloader we just have to drag and drop the files in a separate folder "modloader" 
+	and it will load from modloader and work  well
+
+.ipl and .ide 
+	ide = {opject id , .dff model , txd archive , draw distance , object flags }
+
+	
+.dat 	
+	general data files 
+	
+.ifp 
+	contains animation 
+
+
+.sfx and streams 
+
+	packages similar to img archive and txd archives 
+
+
+changes i made in skygfx 
+	dualpass = 0
+	vehiclePipe=neo
+	disableGamma=0
+	
+
+open limit adjuster 
+	MemoryAvailable = 1024
+
+
+after completing essential mods i m now gonna explore mods which i like to add in gta sa
+	
+
+

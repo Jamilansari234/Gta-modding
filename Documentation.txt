@@ -1,0 +1,51 @@
+(Jan 18 2026)
+
+For this GTA San Andreas mod 
+I m following TJGM Youtube tutorial 
+
+
+----------
+I have downloaded GTA SA hoodlum version to start my modding journey 
+
+Now started downloading some mods 
+	1) [fix] 4GB Patch (Large Address Aware) 
+	2) Installing ultimate Asi loader [for gta sa its vorbiseFile.dll] 
+	3) Installing cleo for cleo scripts and cleo plugins [used for cheats or cool feature without changing main.scm]
+	4) Installing cleo plugins [NewOpcodes and CLEO+]
+			{cleo plugins in cleo folder}
+	5) Installing modloader [Another Asi plugin , used to load more Asi mod]
+			{modloader folder in main , modloader.asi in script folder}
+	6) Installing silent patch [Fix a lots of bugs and glitch]
+			{inside modloader folder}
+	7) Installing open limit adjuster 
+			{inside modloader folder}	
+(Jan 19 2026)
+	8) Saas sound ambient [mod , fixes/add sounds]
+			{inside cleo folder}
+	9) Installing Skygfx 
+			{inside modloader > data > clorcycle , everything else in modloader}
+	10) debug menu [to debug configuration settings]
+			{in main game directory}
+	11) [essential mods] skygfx , rosa evolved , project 2dfx , mobile font fix , widescreen fix 
+		ladders mod , Loadscreen 2k definitive , missing lamppost fix ,atmoshpere interfarance pack,
+		carspeed dependant FOV, proper player retex 3.0
+			{normal installation directly into modloader folder} 
+		
+(Jan 20 2026)
+*creates a backup 
+
+[completed installing essential mods now time to explore mods which i like ]
+	
+	12) real ped overhaul(peds carrying objects ), project props (random dumps over map),
+		imvehft (for vehicle light),vehfun (vehicle function),Revamped Vehicles Project(fixes and improvments),
+		 combatfx {contains effectloader , enhanceFX , and a folder in models/effects}
+		imfx (gun and sunflare) , Faster Clothes Change, nextgen remastred weapons( weapons graphics) ,
+		shell (bullet drop effect) , livelytrailers (adds some trailers in game)
+
+
+	13) cheat menu 
+			{cleo cs in cleo folder , cleo.fxt in cleo_text folder}
+
+(Jan 21 2026)
+
+	14) mixset (fixes idk what) , realistic beach (minor detail) ,ragdoll bullet physics 
